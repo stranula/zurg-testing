@@ -46,3 +46,10 @@ directories:
     only_show_the_biggest_file: true
     filters:
       - regex: /.*/
+    
+  torrents:
+      group_order: 10
+      group: torrents
+      filters:
+        - regex: /.*/
+    
